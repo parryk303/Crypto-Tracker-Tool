@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
+#title {
+  background-image: url("https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  width: 102%;
+  height: 10%;
+  margin-top: -15px;
+  margin-left: -9px;
+  box-shadow: 1px 5px 5px hsl(0, 5%, 7%);
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 80px;
+  font-weight: 2000;
+  padding: 5px;
+  color: gold;
+}
+
+#chart {
+  padding: 3px;
+  margin: 3px;
+  margin-top: -30px;
+  background-color: whitesmoke;
+  background-image: url("https://www.transparenttextures.com/patterns/squairy.png");
+  border: gray;
+  box-shadow: 1px 2px 2px hsl(0, 3%, 7%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  justify-content: center;
+  width: 95%;
+}
+
+#disclaimer {
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: small;
+  cursor: pointer;
+  color: #4BC0C0
+}
+
+#info {
+  padding: 15px;
+  margin: 3px;
+  background-color: whitesmoke;
+  background-image: url("https://www.transparenttextures.com/patterns/squairy.png");
+  border: gray;
+  box-shadow: 1px 2px 2px hsl(0, 3%, 7%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: large;
+  line-height: 1.5;
+  justify-content: center;
+  width: 93.5%;
+}
