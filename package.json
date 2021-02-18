@@ -4,7 +4,9 @@
   "description": "MiniApps fullstack practice #2. Build a single-page app for viewing the historical price data for any cryptocurrency.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
