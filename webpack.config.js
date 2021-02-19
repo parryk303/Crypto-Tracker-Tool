@@ -12,7 +12,7 @@ module.exports = {
   output: {
     chunkFilename: '[name].[chunkhash].js',
     filename: '[name].js',
-    path: path.resolve(__dirname, 'public/dist')
+    path: path.resolve(__dirname, 'public/wp')
   },
 
   plugins: [
