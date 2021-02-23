@@ -28,4 +28,4 @@ npm start
 
 # Final Product
 
-![final product](./CryptoTrackerTool.png)
+![final product](./public/CryptoTrackerTool.png)
