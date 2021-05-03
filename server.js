@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const axios = require('axios');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
@@ -34,6 +34,8 @@ const formatStart = (date, format) => {
 }
 
 const start = formatStart(now, '20yy-mm-dd' )
+
+console.log(start)
 
 app.get("/btc", (req, res) => {
   axios.get(`https://api.coindesk.com/v1/bpi/historical/close.json?start=${start}&end=${end}`)
