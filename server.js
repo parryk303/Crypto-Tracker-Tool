@@ -16,6 +16,9 @@ const formatEnd = (date, format) => {
   if (date.getMonth() <= 9) {
     map.mm = '0' + map.mm;
   }
+  if (date.getDate() <= 9) {
+    map.dd = '0' + map.dd;
+  }
   return format.replace(/mm|dd|yy/gi, matched => map[matched])
 }
 const now = new Date();
@@ -29,6 +32,9 @@ const formatStart = (date, format) => {
   }
   if (date.getMonth() <= 9) {
     map.mm = '0' + map.mm;
+  }
+  if (date.getDate() <= 9) {
+    map.dd = '0' + map.dd;
   }
   return format.replace(/mm|dd|yy/gi, matched => map[matched])
 }
