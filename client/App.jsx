@@ -53,8 +53,8 @@ class App extends Component {
           As Bitcoin matures, engineers have designed additional protocols to improve the speed and privacy of Bitcoin transactions, including the 
           <a href='https://www.omnilayer.org/' target='_blank' rel='noopener noreferrer'>Omni Layer</a>
           ,  and Liquid Network. Only approximately 21 million bitcoins will ever be created. 
-          New coins are minted every 10 minutes by bitcoin miners who help to maintain the network by adding new transaction data to the blockchain, 
-          <a href='https://lightning.network/'> Lightning Network.</a>
+          New coins are minted every 10 minutes by bitcoin miners who help to maintain the network by adding new transaction data to the blockchain. 
+          <a href='https://lightning.network/'> Lightning Network</a>
         </p>
       </div>
     )
