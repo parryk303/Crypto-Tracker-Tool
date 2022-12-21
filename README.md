@@ -1,5 +1,5 @@
 # Crypto-Tracker-Tool
-Single-page app for viewing the historical price data for Bitcoin.
+Single-page app for viewing the historical price data for Bitcoin NFT.
 
 # Preview
 ![preview](./public/CryptoTrackerTool.png)
